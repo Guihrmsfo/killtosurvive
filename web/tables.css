@@ -1,0 +1,224 @@
+/* 
+    Document   : tables
+    Created on : 27/08/2012, 10:52:33
+    Author     : Guilherme
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+table{
+    border:1px red;
+}
+
+table.main{
+    background-color: black;
+    border-radius: 10px;
+    border-collapse: collapse;
+}
+
+table.characterchoose{
+    background-color:#8B0000;
+    border-radius: 5px;
+    border:3px white;
+    color: black   
+}
+
+td.characterchoose{
+    padding:15px; 
+    vertical-align:top
+}
+
+table.characteroptionmenu{
+    background-color:#8B0000;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    border:3px white;
+    color: white    
+}
+
+td.characteroptionmenu{
+    padding: 10px;
+    vertical-align:top
+}
+
+td.character{
+    vertical-align:top;
+    text-align: center;
+    font-size: 18px;
+    color: white
+}
+
+td.topic
+{
+    text-align:right;
+    font-family: Segoe UI, Arial;
+    font-size: 14px;
+    color: #FFB6C1;
+    text-shadow: black 0.2em 0.2em 0.3em
+}
+
+td.text1
+{
+    text-align:left;
+    font-family: Segoe UI, Arial;
+    font-size: 14px;
+    color: white;
+    text-shadow: black 0.2em 0.2em 0.3em
+}
+
+td.text2
+{
+    text-align:center;
+    font-family: Segoe UI, Arial;
+    font-size: 14px;
+    color: white;
+    text-shadow: black 0.2em 0.2em 0.3em;
+    padding:15px 
+}
+
+td.text3
+{
+    text-align:center;
+    font-family: Segoe UI, Arial;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-shadow: black 0.2em 0.2em 0.3em;
+}
+
+img.character{
+    border-radius:6px;
+}
+
+div.usertopmenu{
+    position: fixed;
+    margin: -10px;
+    border: 3px white;
+    border-style: none none solid none;
+    padding: 0;
+    width: 100%;
+    padding: 0px;
+    background-color: black;
+}
+
+table.messages{
+    border: 1px white;
+    border-collapse: collapse;
+    background-color: red;
+    font-family: Segoe UI, Arial;
+    font-weight: bold;
+}
+
+td.messageindex{
+    padding-left: 5px;
+    background-color: #8B2323;
+    font-size:16px;
+}
+
+td.content1{
+    text-align: center;
+    font-size: 14px;
+}
+
+td.content2{
+    text-align: center;
+    font-size: 14px;
+    background-color: #CD0000;
+}
+
+table.giveitems{
+    border: 0px white;
+    border-collapse: collapse;
+    border-radius: 10px;
+    background-color: #CA0000;
+    font-family: Segoe UI, Arial;
+    font-weight: bold;
+}
+
+table.giveitems tr td{
+    border: 1px dashed white;
+}
+
+td.giveitemsindex{
+    padding-left: 5px;
+    font-size: 16px;
+}
+
+table.attackCharacter{
+    background-color:#8B0000;
+    border-radius: 5px;
+    border-collapse: collapse;
+    border:3px white;
+    color: black;
+    text-shadow: black 0.0em 0.0em 0.1em;
+}
+
+td.attackCharacterTitleRight{
+    font-size: 22px;
+    background-color:white;
+    text-align: left;
+    width: 210px;
+}
+
+td.attackCharacterTitleCenter{
+    font-size: 22px;
+    background-color:white;
+    text-align: center;
+    width: 80px;
+}
+
+td.attackCharacterTitleLeft{
+    font-size: 22px;
+    background-color:white;
+    text-align: right;
+    width: 210px;
+}
+
+td.attackCharacterTextRight{
+    font-size: 18px;
+    text-align: left;
+}
+
+td.attackCharacterTextCenter{
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    text-shadow: black 0.0em 0.3em 0.5em;
+}
+
+td.attackCharacterTextLeft{
+    font-size: 18px;
+    text-align: right;
+}
+
+table.ranking{
+    text-align: center;
+    border-radius: 5px;
+    border-collapse: collapse;
+    font-weight: bold;
+    text-shadow: black 0.1em 0.2em 0.3em;
+}
+
+td.rankingindex{
+    background-color: #FF6600;
+    font-size: 18px;
+}
+
+td.altranking1{
+    background-color: #990000;
+}
+
+td.altranking2{
+    background-color: #CC0000;
+}
+
+table.missao{
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    padding:5px;  
+    text-shadow: black 0.0em 0.0em 0.1em;   
+}

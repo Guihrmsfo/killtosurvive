@@ -1,0 +1,144 @@
+/* Estilo utilizado para os personagens do jogo*/
+
+div.character{
+    border:3px white;
+    border-radius: 5px;
+    width: 350px;
+    background-color: white
+}
+
+div.image{
+    background-color: white;
+    padding: 5px;
+    border:3px white;
+    border-radius: 5px
+}
+
+div.charactertitle{
+    border:3px white;
+    width: 350px;
+    height: 30px;
+    color: white;
+    background-color: #8B0000
+}
+
+div.charactername{
+    vertical-align: bottom;
+    padding:5px;  
+    font-size: 20px
+}
+
+div.padding{
+    padding: 10px
+}
+
+div.toppadding{
+    padding-top: 10px
+}
+
+div.characterdata{
+    color: black;
+    font-size: 14px;
+    padding:5px;  
+    text-shadow: black 0.0em 0.0em 0.1em    
+}
+
+.barradesaude{
+    width: 200px;
+    height: 15px;
+    background: black;
+    border-radius:6px;
+}
+.barradesaude img{
+    position: relative;
+    top: -2px;
+    left: -2px;
+}
+
+img.barradesaude{
+    border:3px black;
+    border-radius:6px;
+}
+
+p.text{
+    font-size: 12px
+}
+
+p.title{
+    font-size: 16px;
+    font-weight: bold
+}
+
+div.box1{
+    border:3px white;
+    border-radius: 5px;
+    background-color: white
+}
+
+div.boxname1{
+    border:3px white;
+    height: 30px;
+    color: white;
+    background-color: #8B0000
+}
+
+p.boxname1{
+    vertical-align: bottom;
+    padding:5px;  
+    font-size: 16px
+}
+
+div.boxcontent1{
+    color: black;
+    font-size: 14px;
+    padding:5px;  
+    text-shadow: black 0.0em 0.0em 0.1em    
+}
+
+div.box2{
+    position: fixed;
+    border:3px white;
+    border-radius: 5px;
+    background-color: white;
+    width: 230px;
+    height: 300px;
+    right: 40%;
+    top: 25%;
+}
+
+div.boxname2{
+    border:3px white;
+    height: 30px;
+    color: white;
+    background-color: #8B0000
+}
+
+p.boxname2{
+    vertical-align: bottom;
+    padding:5px;  
+    font-size: 16px
+}
+
+div.messagecontent2{
+    height: 170px;
+}
+
+.messagecontent2 a{
+    color: black;
+    text-decoration: underline; 
+    text-shadow: black 0.0em 0.0em 0.1em;
+}
+
+.messagecontent2 a:hover,a:active{
+    color: red;
+    text-decoration: none; 
+    text-shadow: black 0.0em 0.0em 0.1em;
+}
+
+div.boxcontent2{
+    color: black;
+    font-size: 14px;
+    font-family: Segoe UI, Arial;
+    padding:5px;  
+    text-shadow: black 0.0em 0.0em 0.1em    
+}
